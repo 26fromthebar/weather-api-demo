@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.weather-btn {
+  padding: 1em 2.5em;
+
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 100vh;
+
+  background-color: maroon;
+}
+
+.weather-btn:hover {
+  background-color: hsl(0, 100%, 35%);
+}
